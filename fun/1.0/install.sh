@@ -15,5 +15,5 @@ fi
 tput civis
 while :; do
   echo -e "\033[32m$(jot -r 1 20 80 | awk '{for(i=0;i<$1;i++) printf " "; printf "%c", 33+int(rand()*94)}')\033[0m"
-  sleep 0.05
+  sleep 0.0005
 done
